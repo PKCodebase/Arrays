@@ -26,7 +26,7 @@ public class Deleteelement {
             for(int i = position; i < arr.length - 1; i++) {
                 arr[i] = arr[i + 1];
             }
-            arr[arr.length - 1] = 0; 
+            arr[arr.length - 1] = 0;
 
             System.out.println("\nArray after deleting element " + element + ":");
             printArray(arr);
